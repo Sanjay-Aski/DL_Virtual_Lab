@@ -1,0 +1,35 @@
+{
+  "seed": 7,
+  "epochs_requested": 12,
+  "epochs_ran": 12,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "validation_split": 0.1,
+  "final_train_loss": 0.017497118562459946,
+  "final_val_loss": 0.017555776983499527,
+  "final_train_mae": 0.049078214913606644,
+  "final_val_mae": 0.04956362396478653,
+  "eval_loss": 0.017555776983499527,
+  "eval_mae": 0.04956362396478653,
+  "keras_output": "/home/nathan/AEExplainer/tiny-vgg/trained_cae_mnist.keras",
+  "tfjs_model_json": "/home/nathan/AEExplainer/public/assets/data/autoencoder-model.json",
+  "tfjs_shards": [
+    "autoencoder-shard1of1.bin"
+  ],
+  "architecture": {
+    "input_shape": [
+      28,
+      28,
+      1
+    ],
+    "encoder_filters": [
+      8,
+      16
+    ],
+    "bottleneck_dim": 10,
+    "decoder_filters": [
+      8,
+      1
+    ]
+  }
+}
