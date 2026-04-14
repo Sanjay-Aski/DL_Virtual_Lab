@@ -1,0 +1,308 @@
+{
+  "active_model": "mnist_custom_model_20260422_130159",
+  "models": [
+    {
+      "name": "mnist_custom_model",
+      "file_name": "mnist_custom_model.keras",
+      "created_at": "2026-04-14T11:11:27.751609Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.029681604355573654,
+      "test_accuracy": 0.9884999990463257
+    },
+    {
+      "name": "mnist_custom_model_2",
+      "file_name": "mnist_custom_model_2.keras",
+      "created_at": "2026-04-14T11:18:03.266134Z",
+      "optimizer": "adam",
+      "learning_rate": 0.005,
+      "conv_filters": [
+        64,
+        128,
+        256
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 64,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.0433327816426754,
+      "test_accuracy": 0.9873999953269958
+    },
+    {
+      "name": "mnist_custom_model_20260414_151006",
+      "file_name": "mnist_custom_model_20260414_151006.keras",
+      "created_at": "2026-04-14T15:10:52.653960Z",
+      "optimizer": "sgd",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 4,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 2.21476149559021,
+      "test_accuracy": 0.3598000109195709
+    },
+    {
+      "name": "mnist_custom_model_3",
+      "file_name": "mnist_custom_model_3.keras",
+      "created_at": "2026-04-14T15:11:41.213340Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.0282933097332716,
+      "test_accuracy": 0.9904999732971191
+    },
+    {
+      "name": "mnist_custom_model_3_20260414_151213",
+      "file_name": "mnist_custom_model_3_20260414_151213.keras",
+      "created_at": "2026-04-14T15:12:46.621003Z",
+      "optimizer": "sgd",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 2.2528555393218994,
+      "test_accuracy": 0.25450000166893005
+    },
+    {
+      "name": "mnist_custom_model_5",
+      "file_name": "mnist_custom_model_5.keras",
+      "created_at": "2026-04-14T15:13:58.235104Z",
+      "optimizer": "sgd",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 4,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 2.240222215652466,
+      "test_accuracy": 0.2529999911785126
+    },
+    {
+      "name": "mnist_custom_model_5_20260414_151407",
+      "file_name": "mnist_custom_model_5_20260414_151407.keras",
+      "created_at": "2026-04-14T15:14:47.040280Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 4,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.026484793052077293,
+      "test_accuracy": 0.9912999868392944
+    },
+    {
+      "name": "mnist_custom_model_20260414_152235",
+      "file_name": "mnist_custom_model_20260414_152235.keras",
+      "created_at": "2026-04-14T15:23:11.088156Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.02521716244518757,
+      "test_accuracy": 0.9912999868392944
+    },
+    {
+      "name": "mnist_custom_model_20260414_152452",
+      "file_name": "mnist_custom_model_20260414_152452.keras",
+      "created_at": "2026-04-14T15:25:25.291623Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.029451986774802208,
+      "test_accuracy": 0.9901999831199646
+    },
+    {
+      "name": "mnist_custom_model_20260414_153202",
+      "file_name": "mnist_custom_model_20260414_153202.keras",
+      "created_at": "2026-04-14T15:32:52.516666Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        4,
+        64,
+        64
+      ],
+      "epochs": 5,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 1.3004530668258667,
+      "test_accuracy": 0.4593999981880188
+    },
+    {
+      "name": "Mnist_New_1",
+      "file_name": "Mnist_New_1.keras",
+      "created_at": "2026-04-14T15:48:51.210886Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        48,
+        32,
+        32
+      ],
+      "dense_neurons": [
+        32,
+        12
+      ],
+      "epochs": 4,
+      "batch_size": 32,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.047573644667863846,
+      "test_accuracy": 0.9873999953269958
+    },
+    {
+      "name": "MyModelTrained",
+      "file_name": "MyModelTrained.keras",
+      "created_at": "2026-04-14T15:59:59.704504Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        64,
+        128
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 9,
+      "batch_size": 64,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.03533409908413887,
+      "test_accuracy": 0.9904999732971191
+    },
+    {
+      "name": "Mnist_New_1_20260414_160457",
+      "file_name": "Mnist_New_1_20260414_160457.keras",
+      "created_at": "2026-04-14T16:07:17.606010Z",
+      "optimizer": "adam",
+      "learning_rate": 0.0015,
+      "conv_filters": [
+        32,
+        64,
+        128,
+        128
+      ],
+      "dense_neurons": [
+        64
+      ],
+      "epochs": 10,
+      "batch_size": 32,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.05018153414130211,
+      "test_accuracy": 0.9900000095367432
+    },
+    {
+      "name": "temp",
+      "file_name": "temp.keras",
+      "created_at": "2026-04-14T19:04:44.714633Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 8,
+      "batch_size": 144,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.04143097996711731,
+      "test_accuracy": 0.987500011920929
+    },
+    {
+      "name": "mnist_custom_model_20260422_130159",
+      "file_name": "mnist_custom_model_20260422_130159.keras",
+      "created_at": "2026-04-22T13:02:15.856931Z",
+      "optimizer": "adam",
+      "learning_rate": 0.001,
+      "conv_filters": [
+        32
+      ],
+      "dense_neurons": [
+        128
+      ],
+      "epochs": 3,
+      "batch_size": 128,
+      "dataset_source": "keras.datasets.mnist",
+      "test_loss": 0.045639872550964355,
+      "test_accuracy": 0.98580002784729
+    }
+  ]
+}
