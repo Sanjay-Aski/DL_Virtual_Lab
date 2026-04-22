@@ -47,6 +47,26 @@ h3 {
   background: linear-gradient(180deg, #f7f7f8 0%, #edeff2 100%);
 }
 
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.ves-logo {
+  max-height: 100px;
+  width: auto;
+  display: block;
+}
+
+.team-line {
+  color: #1f2937;
+  font-size: 15px;
+}
+
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

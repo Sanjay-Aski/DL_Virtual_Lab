@@ -302,6 +302,17 @@ function App() {
     <>
       <section className="card dashboard-card">
         <h1>Deep Learning Virtual Lab Dashboard</h1>
+        <div className="dashboard-header">
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/ves_logo.png`}
+            alt="Vivekanand Education Society logo"
+            className="ves-logo"
+          />
+          <p className="team-line">
+            <strong>Team:</strong>{' '}
+            <strong>Sanjay Aski, Nathan Cherian, Rahul Guhagarkar, Vivan Tulsi, Vaibhav Thadwani</strong>
+          </p>
+        </div>
         <p className="overview-prose">
           This unified dashboard merges both of your virtual lab projects into one learning system.
           The CNN Digit Recognition Lab lets you train custom models on MNIST, load saved models,
