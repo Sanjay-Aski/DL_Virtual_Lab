@@ -9,7 +9,7 @@ import HeatmapViewer from './components/HeatmapViewer';
 import CNNFlowViewer from './components/CNNFlowViewer';
 import { dataUrlToBlob } from './utils/imageTransforms';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
 function App() {
   const canvasRef = useRef(null);
